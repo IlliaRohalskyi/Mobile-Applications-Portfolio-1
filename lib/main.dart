@@ -32,7 +32,7 @@ void main() {
                 color: Colors.orange,
                 border: Border.all(
                   color: Colors.black,
-                  width: 2.0,
+                  width: 5.0,
                 ),
                 borderRadius: BorderRadius.circular(10.0),
               ),
@@ -96,7 +96,13 @@ void main() {
             Container(
               width: 200,
               height: 150,
-              color: Color.fromARGB(255, 0, 71, 129),
+              decoration: BoxDecoration(
+                color: Color.fromARGB(255, 0, 71, 129),
+                border: Border.all(
+                  color: Colors.black, // Border color
+                  width: 2.0, // Border width
+                ),
+              ),
               child: Image.network(
                 'https://elearning.thws.de/pluginfile.php/1/theme_boost_union/logocompact/300x300/1712240363/thws_logo_mini.png',
               ),
@@ -107,6 +113,7 @@ void main() {
     ),
   );
 }
+
 
 void main4() {
   runApp(Center(
