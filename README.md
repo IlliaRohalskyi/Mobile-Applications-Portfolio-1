@@ -1,3 +1,1 @@
-# flutter_application_1
-
-A new Flutter project.
+# Mobile Applications Portfolio 1
